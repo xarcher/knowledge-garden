@@ -5,7 +5,7 @@ author: "Xarcher"
 created: 2025-09-28
 updated: 2025-09-28
 tags: ["blog", "backend", "linux"]
-description: "Blog cá nhân của Than về backend, Linux và cuộc sống."
+description: ""
 draft: false
 ---
 
@@ -20,3 +20,4 @@ draft: false
 - [Programming Languages](./languages/index.md)
 - [Technical Blog](./blog/index.md)
 - [Books](books/)
+- [Homelab as code](./homelab/index.md)
