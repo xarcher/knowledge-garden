@@ -13,3 +13,5 @@ Mình viết ở đây để ghi chú và chia sẻ kiến thức về Backend D
 > — Pavel Korchagin, **Thép Đã Tôi Thế Đấy**
 
 Cảm ơn bạn đã ghé thăm 🚀
+
+[![GitHub](https://img.shields.io/badge/GitHub-xarcher-181717?style=flat&logo=github)](https://github.com/xarcher)

@@ -1,0 +1,19 @@
+name: Trigger Quartz Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Quartz rebuild
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.QUARTZ_DEPLOY_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/xarcher/quartz/actions/workflows/deploy.yaml/dispatches \
+            -d '{"ref": "v5"}'
